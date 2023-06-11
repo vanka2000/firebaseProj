@@ -1,0 +1,45 @@
+.first_card{
+background-image: url(../../img/invest-9.png);
+background-size: contain;
+width: 522px;
+height: 400px;
+background-repeat: no-repeat;
+}
+.second_card{
+background-image: url(../../img/sprint-planning-blueprint.png);
+background-size: contain;
+width: 522px;
+height: 400px;
+background-repeat: no-repeat;
+}
+.third_card{
+    background-image: url(../../img/invest-9.png);
+    background-size: contain;
+    width: 522px;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+.fourth_card{
+    background-image: url(../../img/invest-9.png);
+    background-size: contain;
+    width: 522px;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+
+.slider_card {
+    min-width: 100%;
+    /* height: 50vh; */
+    /* height: 500px; */
+  }
+ 
+
+  .sliderabout{
+    overflow: hidden;
+    /* display: flex; */
+  }
+  .wrapper_slide{
+    display: flex;
+    transition: 1s;
+  }
+  

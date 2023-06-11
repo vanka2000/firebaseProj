@@ -1,0 +1,193 @@
+.broker{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 64px;
+}
+.broker_title h2{
+    color: #0a66c2;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.broker_title p{
+    font-family: 'good', 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+    margin-bottom: 35px;
+}
+.broker_blocks{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.blocks{
+    border-radius: 14px;
+    width: 45%;
+    height: 200px;
+    background: #0a66c2;
+    display: flex;
+}
+.blocks_wrapper{
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.rightside_cont_broker{
+    
+    width: 60%;
+}
+.rightside_cont_broker p{
+    color: white;
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rightside_cont_broker h5{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.leftside_pict_broker{
+    
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+}
+.firstbroker{
+ background-image: url(../../img/ik1.svg);
+ background-repeat: no-repeat;
+}
+.secondbroker{
+    background-image: url(../../img/ik2.svg);
+    background-repeat: no-repeat;
+}
+.thirdbroker{
+    background-image: url(../../img/ik3.svg);
+    background-repeat: no-repeat;
+}
+.fourthbroker{
+    background-image: url(../../img/ik4.svg);
+    background-repeat: no-repeat;
+    
+}
+@media (max-width:425px) {
+    .broker{
+        width: 100%;
+    flex-direction: column;
+    box-sizing: content-box;
+    padding: 150px 0px 0px 0px;
+    }
+    .broker_wrapper{
+        padding: 0 40px;
+    }
+    .broker_title h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .broker_title p{
+        text-align: center;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .blocks_wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .broker_blocks{
+        width: 100%;
+        gap: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blocks{
+        width: 100%;
+        height: 35vh;
+    }
+    .rightside_cont_broker h5{
+        font-size: 25px;
+    }
+    .rightside_cont_broker p{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 12px;
+    }
+    .rightside_cont_broker{
+        width: 75%;
+    }
+    .rightside_cont_broker h5{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .leftside_pict_broker {
+        width: 80px;
+        height: 100px;
+        background-size: contain;
+    }
+}
+/* @media (max-width:600px) {
+    .broker{
+        width: 100%;
+    flex-direction: column;
+    box-sizing: content-box;
+    padding: 150px 84px 0px 84px;
+    }
+    .broker_wrapper{
+        padding: 0 40px;
+    }
+    .broker_title h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .broker_title p{
+        text-align: center;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .blocks_wrapper{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .broker_blocks{
+        width: 100%;
+        gap: 60px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blocks{
+        width: 100%;
+        height: 35vh;
+    }
+    .rightside_cont_broker h5{
+        font-size: 25px;
+    }
+    .rightside_cont_broker p{
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 12px;
+    }
+    .rightside_cont_broker{
+        width: 75%;
+    }
+    .rightside_cont_broker h5{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .leftside_pict_broker {
+        width: 80px;
+        height: 100px;
+        background-size: contain;
+    }
+} */

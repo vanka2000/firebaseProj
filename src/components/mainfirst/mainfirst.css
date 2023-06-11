@@ -1,0 +1,112 @@
+.main{
+    max-width: 1440px;
+    margin: auto;
+    padding: 200px 64px 0px ;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    
+}
+.leftside_cont{
+    width: 50%;
+    height: 50vh;
+}
+.leftside_cont h1{
+    color: #0a66c2;
+}
+.leftside_cont p{
+    font-family: 'good', 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 35px;
+    margin-bottom: 35px;
+
+}
+.leftside_cont_btn{
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #0a66c2;
+    color: wheat;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'good', 'Arial', sans-serif;
+}
+.leftside_cont_btn:hover{
+    color:white;
+    background: #1072d4;
+}
+.rightside_cont{
+    /* background-image: url(../../img/invest-9.png); */
+    width: 50%;
+    height: 50vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:425px) {
+    .main{
+        width: 100%;
+        flex-direction: column;
+        box-sizing: content-box;
+        padding: 50px 0px 0px 0px;
+    }
+    .leftside_cont p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .leftside_cont h1{
+        font-size: 25px;
+    }
+    .leftside_cont{
+        /* padding: 0 40px; */
+        padding: 90px 40px 0px 40px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+    .leftside_cont_btn{
+        width: 90%;
+        height: 75px;
+        font-size: 25px;
+    }
+    .rightside_cont{
+        width: 100%;
+        padding-top: 120px;
+    }
+}
+/* 
+@media (max-width:600px) {
+    
+    .main{
+        width: 100%;
+        flex-direction: column;
+        box-sizing: content-box;
+        padding: 70px 84px 0px 84px;
+    }
+    .leftside_cont p{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .leftside_cont h1{
+        font-size: 25px;
+    }
+    .leftside_cont{
+        
+        padding: 90px 40px 0px 40px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 75px;
+    }
+    .leftside_cont_btn{
+        width: 90%;
+        height: 75px;
+        font-size: 25px;
+    }
+    .rightside_cont{
+        width: 100%;
+        padding-top: 40px;
+    }
+} */

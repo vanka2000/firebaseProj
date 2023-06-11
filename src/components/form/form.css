@@ -1,0 +1,239 @@
+.form_container{
+    height: 100vh;
+    background: #0a66c2;
+
+}
+.leftside_form_cont{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leftside_form_cont h2{
+    color: white;
+    line-height: 45px;
+    padding-top: 150px;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.wrapper{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 64px;
+    display: flex;
+    gap: 30px;
+}
+.leftside_form_img{
+    background-image: url(../../img/form.svg);
+    width: 93%;
+    height: 440px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.rightside_form_cont{
+    width: 50%;
+    padding-top: 160px;
+}
+.form{
+    max-width: 500px;
+    height: 570px;
+    background: white;
+    border-radius: 5%;
+
+}
+.form_title{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 30px;
+}
+.form_title p{
+    font-size: 16px;
+    line-height: 23px;
+    color: #666;
+    margin: 0 0 30px;
+}
+.input_name,
+.input_phone,
+.input_mail{
+    margin: auto;
+    margin-bottom: 30px;
+    color: #666;
+    caret-color: #f5f5f5;
+    display: block;
+    padding: 12px 16px;
+    gap: 80px;
+    width: 410px;
+    height: 58px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    filter: drop-shadow(0px 0px 5px rgba(8,217,214,0.25));
+}
+.checkbox{
+    width: 16px;
+    height: 16px;
+    border: 2px solid #666;
+    filter: drop-shadow(0px 0px 5px rgba(8,217,214,0.25));
+}
+.container_checkbox{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.container_checkbox_sec{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    gap: 10px;
+}
+.checkbox_title{
+    height: 16px;
+
+}
+.checkbox_title p{
+    font-size: 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.checkbox_title a{
+    color: #0a66c2;
+    cursor: pointer;
+}
+.form_btn{
+    width: 250px;
+    height: 80px;
+    background: #0a66c2;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.form_btn:active{
+    background: #3e92e6;
+}
+.form_btn_cont{
+    padding-top: 35px;
+    max-width: 100%;
+    display: flex;
+}
+
+@media (max-width:425px) {
+    .form_container{
+        width: 100%;
+        box-sizing: content-box;
+        padding: 50px 0px 0px 0px;
+        height: 210vh;
+        /* height: 210vh;
+    background: #0a66c2;
+    display: flex;
+    flex-direction: column;
+    width: 190%;
+    padding: 0px 64px;
+    margin-bottom: 70px;
+    box-sizing: content-box; */
+    }
+    .wrapper{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftside_form_cont{
+        margin: auto;
+        width: 80%;
+    }
+    .leftside_form_cont h2{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .leftside_form_img {
+        width: 100%;
+    }
+    .rightside_form_cont{
+        width: 100%;
+        padding-top: 0px;
+    
+    }
+    .form{
+        max-width: none;
+        width: 100%;
+        height: 90vh;
+    }
+    .form_title p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .container_checkbox_sec {
+        padding-top: 20px;
+    }
+    .form_btn_cont{
+        padding-top: 60px;
+    }
+    .input_name,
+    .input_mail,
+    .input_phone{
+        width: 80%;
+    }
+    .checkbox_title p{
+        font-size: 12px;
+    }
+}
+/* @media (max-width:600px) {
+    .form_container{
+        width: 100%;
+        box-sizing: content-box;
+        padding: 50px 84px 0px 84px;
+        height: 210vh;
+       
+    }
+    .wrapper{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .leftside_form_cont{
+        margin: auto;
+        width: 80%;
+    }
+    .leftside_form_cont h2{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .leftside_form_img {
+        width: 100%;
+    }
+    .rightside_form_cont{
+        width: 100%;
+        padding-top: 0px;
+    
+    }
+    .form{
+        max-width: none;
+        width: 100%;
+        height: 95vh;
+    }
+    .form_title p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .container_checkbox_sec {
+        padding-top: 20px;
+    }
+    .form_btn_cont{
+        padding-top: 60px;
+    }
+    .input_name,
+    .input_mail,
+    .input_phone{
+        width: 80%;
+    }
+    .checkbox_title p{
+        font-size: 12px;
+    }
+} */

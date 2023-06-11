@@ -1,0 +1,141 @@
+.footer{
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 64px;
+}
+.footer_wrapper{
+    width: 100%;
+    padding-top: 150px;
+}
+.footer_blocks{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+}
+.block_footer_logo{
+    background-image: url(../../img/form.svg);
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+}
+.block_footer_links a{
+    font-size: 12px;
+    line-height: 120%;
+    color: #000;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+.block_footer_links a:hover{
+    color: #0a66c2;
+}
+.block_footer_links{
+    display: flex;
+    flex-direction: column;
+}
+.block_footer_net{
+    display: flex;
+    gap: 15px;
+}
+.block_vk{
+    background-image: url(../../img/icons8-вконтакте.svg);
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.block_tg{
+    background-image: url(../../img/icons8-telegram-app.svg);
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.block_footer_number h6{
+    font-size: 18px;
+}
+.footer_text{
+    padding-top: 30px;
+}
+.footer_text p{
+    font-size: 12px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.6);
+}
+.footer_text h6{
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+@media (max-width:425px) {
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        box-sizing: content-box;
+        padding: 50px 0px 0px 0px;
+    }
+    .footer_wrapper{
+        padding: 0 40px;
+        width: 100%;
+    }
+    .footer_blocks {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .block_footer_logo{
+        
+    background-size: contain;
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    }
+    .block_footer_links a {
+        font-size: 18px;
+    }
+    .block_footer_links{
+        text-align: center;
+    }
+    .footer_text h6{
+        text-align: center;
+    }
+}
+
+/* @media (max-width:600px) {
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        box-sizing: content-box;
+        padding: 50px 84px 0px 84px;
+    }
+    .footer_wrapper{
+        padding: 0 40px;
+        width: 100%;
+    }
+    .footer_blocks {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .block_footer_logo{
+        
+    background-size: contain;
+    width: 100px;
+    height: 80px;
+    background-repeat: no-repeat;
+    }
+    .block_footer_links a {
+        font-size: 18px;
+    }
+    .block_footer_links{
+        text-align: center;
+    }
+    .footer_text h6{
+        text-align: center;
+    }
+} */
